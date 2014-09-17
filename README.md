@@ -1,4 +1,0 @@
-jruasol.github.io
-=================
-
-portfolio
