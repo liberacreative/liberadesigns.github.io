@@ -16,13 +16,8 @@ body {
 }
 
 .text-muted2 {
-    color: #CEBC72;
+    color: #353535;
     text-align: center;
-}
-
-.text-muted:hover {
-    color: #CEBC72;
-    text-decoration: none;
 }
 
 .text-primary {
@@ -31,7 +26,7 @@ body {
 
 p {
     font-size: 1em;
-    line-height: 20px;
+    line-height: 24px;
 }
 
 .intro-heading p {
@@ -68,7 +63,7 @@ h6 {
 }
 
 
-.teal {
+.white {
     background-color: #fff;
     
 }
@@ -196,12 +191,14 @@ fieldset[disabled] .btn-xl.active {
     color: #BB7E6F;
 }
 
+
 .navbar-default .navbar-collapse {
     border-color: #BB7E6F;
 }
 
 .navbar-default .navbar-toggle {
     border-color: #BB7E6F;
+    border-radius: 0;
     background-color: #BB7E6F;
 }
 
@@ -261,7 +258,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-nav>.active>a {
-        border-radius: 3px;
+        border-radius: 0;
     }
 
     .navbar-default.navbar-shrink {
@@ -289,7 +286,7 @@ header {
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
-    height: 800px;
+    height: 770px;
 }
 
 header .intro-text .intro-heading {
@@ -338,12 +335,20 @@ section h2.section-heading2 {
 
 section h3.section-subheading {
     margin-bottom: 75px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    font-weight: 400;
+    text-transform: none;
+    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    color: #353535;
+}
 
+.section-subheading a {
+    color: #CEBC72;
+}
+
+.section-subheading a:hover {
+    color: #353535;
+    text-decoration: none;
 }
 
 
@@ -394,7 +399,7 @@ section h3.section-subheading {
     height: 20px;
     margin-top: -12px;
     text-align: center;
-    font-size: 20px;
+    font-size: 1em;
     color: #fff;
 }
 
@@ -438,33 +443,6 @@ section h3.section-subheading {
         margin: 0 0 30px;
     }
 }
-
-
-
-.team-member {
-    margin-bottom: 50px;
-    text-align: center;
-}
-
-.team-member img {
-    margin: 0 auto;
-    border: 7px solid #fff;
-}
-
-.team-member h4 {
-    margin-top: 25px;
-    margin-bottom: 0;
-    text-transform: none;
-}
-
-.team-member p {
-    margin-top: 0;
-}
-
-aside.clients img {
-    margin: 50px auto;
-}
-
 
 section#contact .section-heading {
     color: #54868A;
@@ -595,7 +573,6 @@ ul.social-buttons li a:active {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     font-size: 16px;
-    font-style: italic;
 }
 
 .portfolio-modal .modal-content ul.list-inline {
@@ -644,12 +621,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #822825;
+    background: #CEBC72;
 }
 
 ::selection {
     text-shadow: none;
-    background: #822825;
+    background: #CEBC72;
 }
 
 img::selection {
@@ -661,5 +638,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #822825;
+    webkit-tap-highlight-color: #BB7E6F;
 }
