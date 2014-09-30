@@ -6,13 +6,23 @@
 
 body {
     overflow-x: hidden;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
+    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
 }
 
 .text-muted {
-    color: #F4EFEB;
+    color: #4C4C4C;
     text-align: left;
+}
+
+.text-muted2 {
+    color: #CEBC72;
+    text-align: center;
+}
+
+.text-muted:hover {
+    color: #CEBC72;
+    text-decoration: none;
 }
 
 .text-primary {
@@ -20,7 +30,7 @@ body {
 }
 
 p {
-    font-size: 0.9em;
+    font-size: 1em;
     line-height: 20px;
 }
 
@@ -59,7 +69,7 @@ h6 {
 
 
 .teal {
-    background-color: #54868A;
+    background-color: #fff;
     
 }
 
@@ -187,21 +197,22 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-collapse {
-    border-color: #822825;
+    border-color: #BB7E6F;
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #822825;
-    background-color: #822825;
+    border-color: #BB7E6F;
+    background-color: #BB7E6F;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #BB7E6F;
+    background-color: #822825;
 }
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #822825;
+    background-color: #BB7E6F;
+    color: #BB7E6F;
 }
 
 .navbar-default .nav li a {
@@ -221,8 +232,8 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-nav>.active>a {
     outline: 0;
-    color: #822825;
-    background-color: #F4EFEB;
+    color: #BB7E6F;
+    background-color: #822825;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
@@ -266,14 +277,13 @@ fieldset[disabled] .btn-xl.active {
 header {
     color: #54868A;
     background-attachment: scroll;
-    background-image: url(../img/titletext-01.svg);
+    background-image: url(../img/outlinetest2-01.svg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    border-bottom: 5px solid white;
 }
 
 header .intro-text {
@@ -315,7 +325,14 @@ section h2.section-heading {
     margin-top: 0;
     margin-bottom: 30px;
     font-size: 1.1em;
-    color: #CEBC72;
+    color: #54868A;
+}
+
+section h2.section-heading2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 1.1em;
+    color: #54868A;
 }
 
 
@@ -326,7 +343,9 @@ section h3.section-subheading {
     font-weight: 400;
     font-size: 16px;
     font-weight: 400;
+
 }
+
 
 @media(min-width:768px) {
     section {
@@ -337,7 +356,8 @@ section h3.section-subheading {
 .service-heading {
     margin: 15px 0;
     text-transform: uppercase;
-    color: #F4EFEB;
+    color: #54868A;
+    text-align: left;
 }
 
 #portfolio .portfolio-item {
@@ -357,7 +377,7 @@ section h3.section-subheading {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: #822825;
+    background: #54868A;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -392,21 +412,21 @@ section h3.section-subheading {
     padding: 25px;
     max-width: 400px;
     text-align: left;
-    background-color: #BB7E6F;
+    background-color: #FFF;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
     margin: 0;
-    text-transform: none;
-    color: #F4EFEB;
+    text-transform: uppercase;
+    color: #54868A;
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    color: #CEBC72;
+    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    color: #4C4C4C;
 }
 
 #portfolio * {
@@ -447,7 +467,7 @@ aside.clients img {
 
 
 section#contact .section-heading {
-    color: #fff;
+    color: #54868A;
 }
 
 section#contact .form-group {
