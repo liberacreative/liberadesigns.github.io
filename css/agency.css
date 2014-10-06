@@ -621,12 +621,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #CEBC72;
+    background: #dacc98;
 }
 
 ::selection {
     text-shadow: none;
-    background: #CEBC72;
+    background: #dacc98;
 }
 
 img::selection {
