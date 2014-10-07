@@ -43,6 +43,8 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
+    color: #BB7E6F;
+    text-decoration: none;
 }
 
 
@@ -56,6 +58,7 @@ h6 {
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
     font-size: 1.1em;
+    letter-spacing: 1px;
 }
 
 .img-centered {
@@ -128,7 +131,7 @@ fieldset[disabled] .btn-primary.active {
     text-transform: uppercase;
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 300;
     color: #fff;
     background-color: transparent;
 }
@@ -274,7 +277,7 @@ fieldset[disabled] .btn-xl.active {
 header {
     color: #54868A;
     background-attachment: scroll;
-    background-image: url(../img/FINBG_MUSTARD_OUTLINES-01.svg);
+    background-image: url(../img/MUSTARDFINBG-01.svg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -321,14 +324,14 @@ section {
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 30px;
-    font-size: 1.1em;
+    font-size: 1.3em;
     color: #54868A;
 }
 
 section h2.section-heading2 {
     margin-top: 0;
     margin-bottom: 30px;
-    font-size: 1.1em;
+    font-size: 1.3em;
     color: #54868A;
 }
 
@@ -374,7 +377,7 @@ section h3.section-subheading {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 300px;
+    max-width: 400px;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
@@ -415,7 +418,7 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-caption {
     margin: 0 auto;
     padding: 25px;
-    max-width: 300px;
+    max-width: 400px;
     text-align: left;
     background-color: #FFF;
 }
@@ -473,28 +476,28 @@ section#contact .form-control:focus {
 section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-weight: 300;
     color: #bbb;
 }
 
 section#contact:-moz-placeholder {
     text-transform: uppercase;
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-weight: 300;
     color: #bbb;
 }
 
 section#contact::-moz-placeholder {
     text-transform: uppercase;
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-weight: 300;
     color: #bbb;
 }
 
 section#contact:-ms-input-placeholder {
     text-transform: uppercase;
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-weight: 300;
     color: #bbb;
 }
 
@@ -509,10 +512,9 @@ footer {
 }
 
 footer span.copyright {
-    text-transform: uppercase;
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    line-height: 40px;
-    color: #54868A;
+    font-weight: 300;
+    color: #4C4C4C;
 }
 
 
