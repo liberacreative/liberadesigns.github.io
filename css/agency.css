@@ -277,7 +277,7 @@ fieldset[disabled] .btn-xl.active {
 header {
     color: #54868A;
     background-attachment: scroll;
-    background-image: url(../img/MUSTARDFINBG-01.svg);
+    background-image: url(../img/FINFINBG-01.svg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -623,12 +623,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #dacc98;
+    background: #ded3a6;
 }
 
 ::selection {
     text-shadow: none;
-    background: #dacc98;
+    background: #ded3a6;
 }
 
 img::selection {
