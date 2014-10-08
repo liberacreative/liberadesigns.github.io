@@ -83,6 +83,10 @@ h6 {
     font-weight: 300;
     color: #BB7E6F;
     background-color: transparent;
+    padding-bottom: 0.5em; 
+    padding-top: 0.5em;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .btn-primary:hover,
@@ -93,6 +97,7 @@ h6 {
     border-color: #822825;
     color:#BB7E6F;
     background-color: #822825;
+    border-radius: 0;
 }
 
 .btn-primary:active,
@@ -563,7 +568,9 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content h2 {
     margin-bottom: 15px;
-    font-size: 3em;
+    font-size: 1.3em;
+    color: #54868A;
+    letter-spacing: 1px;
 }
 
 .portfolio-modal .modal-content p {
@@ -574,7 +581,8 @@ ul.social-buttons li a:active {
     margin: 20px 0 30px;
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 1.1em;
+    color: #353535;
 }
 
 .portfolio-modal .modal-content ul.list-inline {
