@@ -1,0 +1,111 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+
+#wrapper {
+	display:block;
+	width:90%;
+	height:100%;
+	margin:0 auto;
+	}
+
+/* NAV */
+
+header {
+	background-color:yellow;
+	display:block;
+	height:120px;
+	position:fixed;
+	top:40%;
+    right:5%;
+    text-align: right;
+	}
+
+/* MAIN DIVS */
+
+#title {
+    background-color: green;
+	display:block;
+	height:600px;
+    margin-top: 50px;
+    padding: 110px 0 0 0;
+}
+
+
+#quote01 {
+	background-color: blue;
+	display:block;   
+	height: 600px;
+    padding: 60px 120px 50px 70px;
+    margin-top: 50px;
+}
+
+#quote02 {
+	background-color: pink;
+	display:block;   
+	height: 600px;
+    padding: 50px 120px 50px 70px;
+    margin-top: 50px;
+}
+
+#quote03 {
+	background-color: purple;
+	display:block;   
+	height: 600px;
+    padding: 50px 120px 50px 70px;
+    margin-top: 50px;
+}
+
+#quote04 {
+	background-color: grey;
+	display:block;   
+	height: 600px;
+    padding: 50px 120px 50px 70px;
+    margin-top: 50px;
+}
+
+#quote05 {
+	background-color: orange;
+	display:block;   
+	height: 600px;
+    padding: 50px 120px 50px 70px;
+    margin-top: 50px;
+}
+
+
+/* TYPOGRAPHY */
+
+h1 {
+    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight:700;
+    font-size:5em;
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 4em;
+    letter-spacing: 0.1em;
+}
+
+h3 {
+    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    letter-spacing: 0.15em;
+    text-align:center;
+}
+
+ul {
+	display:block;
+    list-style-type:none;
+	text-decoration:none;
+	font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+	font-size: 0.8em;
+	text-transform:uppercase;
+	}
