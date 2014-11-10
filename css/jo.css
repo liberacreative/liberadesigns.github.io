@@ -13,7 +13,7 @@ body {
 /* div bgs */
 
 .white {
-    background-color: #fff;    
+    background-color: #FFF;    
 }
 
 .pale {
@@ -23,12 +23,11 @@ body {
 /* top div */
 
 header {
-    color: #54868A;
-    background-attachment: scroll;
-    background-image: url(../img/FINBG_MUSTARD02b.jpg);
     height: 54em;
+    background-attachment: scroll;
+    background-image: url(../img/FINBG_MUSTARD02b_LOGO.jpg);
     background-position: center center;
-    background-repeat: none;
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -63,11 +62,10 @@ footer {
     color: #BB7E6F;
 }
 
-.navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #BB7E6F;
+    color: #822825;
 }
 
 .navbar-default .navbar-collapse {
@@ -75,19 +73,21 @@ footer {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #BB7E6F;
+    border-color: #F4EFEB;
     border-radius: 0;
-    background-color: #BB7E6F;
+    background-color: #F4EFEB;
 }
 
-.navbar-default .navbar-toggle .icon-bar {
+.navbar-default .navbar-toggle:focus {
+    background-color: #F4EFEB;
+}
+
+.navbar-default .navbar-toggle:hover {
     background-color: #822825;
 }
 
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
+.navbar-default .navbar-toggle .icon-bar {
     background-color: #BB7E6F;
-    color: #BB7E6F;
 }
 
 .navbar-default .nav li  {
@@ -300,6 +300,7 @@ footer span.copyright {
 
 .portfolio-modal .modal-content p {
     margin-bottom: 30px;
+    line-height: 25px;
 }
 
 .portfolio-modal .modal-content p.item-intro {
@@ -380,12 +381,11 @@ img::-moz-selection {
     text-transform: uppercase;
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
-    color: #BB7E6F;
+    color: #4C4C4C;
     background-color: transparent;
-    padding-bottom: 0.5em; 
-    padding-top: 0.5em;
-    padding-left: 0;
-    padding-right: 0;
+    border-color: #4C4C4C;
+    border-radius: 0;
+    padding: 20px 40px;
 }
 
 .btn-primary:hover,
@@ -394,7 +394,7 @@ img::-moz-selection {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
     border-color: #822825;
-    color:#BB7E6F;
+    color: #BB7E6F;
     background-color: #822825;
     border-radius: 0;
 }
@@ -434,10 +434,13 @@ fieldset[disabled] .btn-primary.active {
     border-color: #822825;
     text-transform: uppercase;
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 18px;
+    font-size: 1.1em;
+    letter-spacing: 1px;
     font-weight: 300;
-    color: #fff;
+    color: #4C4C4C;
+    border-color: #4C4C4C;
     background-color: transparent;
+    border-radius: 0;
 }
 
 .btn-xl:hover,
@@ -445,9 +448,10 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #f6bf01;
-    color: #fff;
+    border-color: #822825;
+    color: #BB7E6F;
     background-color: #822825;
+    border-radius: 0;
 }
 
 .btn-xl:active,
@@ -542,6 +546,8 @@ section#contact .form-group {
 section#contact .form-group input,
 section#contact .form-group textarea {
     padding: 20px;
+    border-color: #4C4C4C;
+    border-radius: 0;
 }
 
 section#contact .form-group input.form-control {
@@ -553,7 +559,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #822825;
+    border-color: #BB7E6F;
     box-shadow: none;
 }
 
@@ -561,32 +567,32 @@ section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
-    color: #bbb;
+    color: #4C4C4C;
 }
 
 section#contact:-moz-placeholder {
     text-transform: uppercase;
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
-    color: #bbb;
+    color: #4C4C4C;
 }
 
 section#contact::-moz-placeholder {
     text-transform: uppercase;
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
-    color: #bbb;
+    color: #4C4C4C;
 }
 
 section#contact:-ms-input-placeholder {
     text-transform: uppercase;
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
-    color: #bbb;
+    color: #4C4C4C;
 }
 
 section#contact .text-danger {
-    color: #e74c3c;
+    color: #822825;
 }
 
 
