@@ -109,7 +109,7 @@ footer {
 .navbar-default .nav li  {
     text-transform: uppercase;
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 1.1em;
+    font-size: 16px;
     font-weight: 300;
     letter-spacing: 1px;
     color: #BB7E6F;
@@ -150,7 +150,7 @@ footer {
     color: #4C4C4C;
     line-height: 28px;
     text-align: left;
-    font-size: 1.04em;
+    font-size: 14.5px;
 }
 
 .red-text {
@@ -159,13 +159,13 @@ footer {
 
 #services ul li {
     color: #4C4C4C;
-    line-height: 25px;
+    line-height: 30px;
     text-align: left;
-    font-size: 1.04em;
+    font-size: 14.5px;
 }
 
 #contact p {
-  font-size: 1.04em;   
+  font-size: 14.5px; 
   line-height: 28px;
   text-align: center;
 }
@@ -198,21 +198,21 @@ h6 {
     text-transform: uppercase;
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
-    font-size: 1.1em;
+    font-size: 16px;
     letter-spacing: 1px;
 }
 
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 30px;
-    font-size: 1.3em;
+    font-size: 16.5px;
     color: #54868A;
 }
 
 section h2.section-heading2 {
     margin-top: 0;
     margin-bottom: 30px;
-    font-size: 1.3em;
+    font-size: 16.5px;
     color: #54868A;
 }
 
@@ -232,7 +232,7 @@ footer span.copyright {
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
     color: #4C4C4C;
-    font-size: 1.04em;
+    font-size: 14.5px;
 }
 
 
@@ -276,7 +276,7 @@ footer span.copyright {
     height: 20px;
     margin-top: -12px;
     text-align: center;
-    font-size: 1.04em;
+    font-size: 14.5px;
     color: #fff;
 }
 
@@ -307,7 +307,7 @@ footer span.copyright {
     margin: 0;
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
-    font-size: 1.04em;
+    font-size: 14.5px;
     line-height: 28px;
     color: #4C4C4C;
 }
@@ -339,14 +339,14 @@ footer span.copyright {
 .portfolio-modal .modal-content p {
     margin-bottom: 30px;
     line-height: 28px;
-    font-size: 1.04em;
+    font-size: 14.5px;
 }
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
-    font-size: 1.04em;
+    font-size: 14.5px;
     line-height: 28px;
     color: #353535;
 }
@@ -421,7 +421,7 @@ img::-moz-selection {
     text-transform: uppercase;
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
-    font-size: 1.1em;
+    font-size: 16.5px;
     color: #4C4C4C;
     background-color: transparent;
     border-color: #CCCCCC;
@@ -475,7 +475,7 @@ fieldset[disabled] .btn-primary.active {
     border-color: #822825;
     text-transform: uppercase;
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 1.1em;
+    font-size: 16.5px;
     letter-spacing: 1px;
     font-weight: 300;
     color: #4C4C4C;
@@ -541,7 +541,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-brand {
-        font-size: 1.1em;
+        font-size: 16.5px;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -557,7 +557,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 1.1em;
+        font-size: 16px;
     }
 }
 
@@ -589,7 +589,7 @@ section#contact .form-group textarea {
     padding: 20px;
     border-color: #CCCCCC;
     border-radius: 0;
-    font-size: 1.04em;
+    font-size: 14.5px;
 }
 
 section#contact .form-group input.form-control {
@@ -610,7 +610,7 @@ section#contact::-webkit-input-placeholder {
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
     color: #4C4C4C;
-    font-size: 1.04em;
+    font-size: 14.5px;
 }
 
 section#contact:-moz-placeholder {
@@ -618,7 +618,7 @@ section#contact:-moz-placeholder {
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
     color: #4C4C4C;
-    font-size: 1.04em;
+    font-size: 14.5px;
 }
 
 section#contact::-moz-placeholder {
@@ -626,7 +626,7 @@ section#contact::-moz-placeholder {
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
     color: #4C4C4C;
-    font-size: 1.04em;
+    font-size: 14.5px;
 }
 
 section#contact:-ms-input-placeholder {
@@ -634,7 +634,7 @@ section#contact:-ms-input-placeholder {
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
     color: #4C4C4C;
-    font-size: 1.04em;
+    font-size: 14.5px;
 }
 
 section#contact .text-danger {
