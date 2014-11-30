@@ -205,15 +205,17 @@ h6 {
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 30px;
-    font-size: 16.5px;
+    font-size: 19px;
     color: #54868A;
+    letter-spacing: 2px;
 }
 
 section h2.section-heading2 {
     margin-top: 0;
     margin-bottom: 30px;
-    font-size: 16.5px;
+    font-size: 19px;
     color: #54868A;
+    letter-spacing: 2px;
 }
 
 .service-heading {
@@ -421,7 +423,7 @@ img::-moz-selection {
     text-transform: uppercase;
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
-    font-size: 16.5px;
+    font-size: 16px;
     color: #000000;
     background-color: transparent;
     border-color: #CCCCCC;
@@ -475,7 +477,7 @@ fieldset[disabled] .btn-primary.active {
     border-color: #822825;
     text-transform: uppercase;
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16.5px;
+    font-size: 16px;
     letter-spacing: 1px;
     font-weight: 300;
     color: #000000;
@@ -541,7 +543,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-brand {
-        font-size: 16.5px;
+        font-size: 16px;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
