@@ -65,7 +65,6 @@ footer {
     text-align: center;
 }
 
-
 /* !NAV */
 
 .navbar-default {
@@ -110,6 +109,7 @@ footer {
 .navbar-default .nav li  {
     text-transform: uppercase;
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.1em;
     font-weight: 300;
     letter-spacing: 1px;
     color: #BB7E6F;
@@ -148,14 +148,26 @@ footer {
 
 .text-muted {
     color: #4C4C4C;
-    line-height: 25px;
+    line-height: 28px;
     text-align: left;
+    font-size: 1.04em;
 }
 
-.text-muted2 {
+.red-text {
+   color: #822825;   
+}
+
+#services ul li {
     color: #4C4C4C;
-    line-height: 23px;
+    line-height: 25px;
     text-align: left;
+    font-size: 1.04em;
+}
+
+#contact p {
+  font-size: 1.04em;   
+  line-height: 28px;
+  text-align: center;
 }
 
 .text-primary {
@@ -215,10 +227,12 @@ section#contact .section-heading {
     color: #54868A;
 }
 
+
 footer span.copyright {
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
     color: #4C4C4C;
+    font-size: 1.04em;
 }
 
 
@@ -262,7 +276,7 @@ footer span.copyright {
     height: 20px;
     margin-top: -12px;
     text-align: center;
-    font-size: 1em;
+    font-size: 1.04em;
     color: #fff;
 }
 
@@ -293,7 +307,8 @@ footer span.copyright {
     margin: 0;
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
-    font-size: 1em;
+    font-size: 1.04em;
+    line-height: 28px;
     color: #4C4C4C;
 }
 
@@ -323,14 +338,16 @@ footer span.copyright {
 
 .portfolio-modal .modal-content p {
     margin-bottom: 30px;
-    line-height: 25px;
+    line-height: 28px;
+    font-size: 1.04em;
 }
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
-    font-size: 1.1em;
+    font-size: 1.04em;
+    line-height: 28px;
     color: #353535;
 }
 
@@ -385,7 +402,7 @@ footer span.copyright {
 
 ::selection {
     text-shadow: none;
-    background: #ded3a6;
+    background: #eae1b8;
 }
 
 img::selection {
@@ -404,6 +421,7 @@ img::-moz-selection {
     text-transform: uppercase;
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
+    font-size: 1.1em;
     color: #4C4C4C;
     background-color: transparent;
     border-color: #CCCCCC;
@@ -571,6 +589,7 @@ section#contact .form-group textarea {
     padding: 20px;
     border-color: #CCCCCC;
     border-radius: 0;
+    font-size: 1.04em;
 }
 
 section#contact .form-group input.form-control {
@@ -591,6 +610,7 @@ section#contact::-webkit-input-placeholder {
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
     color: #4C4C4C;
+    font-size: 1.04em;
 }
 
 section#contact:-moz-placeholder {
@@ -598,6 +618,7 @@ section#contact:-moz-placeholder {
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
     color: #4C4C4C;
+    font-size: 1.04em;
 }
 
 section#contact::-moz-placeholder {
@@ -605,6 +626,7 @@ section#contact::-moz-placeholder {
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
     color: #4C4C4C;
+    font-size: 1.04em;
 }
 
 section#contact:-ms-input-placeholder {
@@ -612,6 +634,7 @@ section#contact:-ms-input-placeholder {
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
     color: #4C4C4C;
+    font-size: 1.04em;
 }
 
 section#contact .text-danger {
