@@ -7,7 +7,6 @@ body {
     webkit-tap-highlight-color: #BB7E6F;
 }
 
-
 /* !STRUCTURE */
 
 /* div bgs */
@@ -20,12 +19,13 @@ body {
     background-color: #F4EFEB;
 }
 
+
 /* top div */
 
 header {
     height: 54em;
     background-attachment: scroll;
-    background-image: url(../img/FINBG_MUSTARD02b_LOGO.jpg);
+    background-image: url(../img/FINBG_NOCIRC.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -38,6 +38,10 @@ header {
 
 section {
     padding: 100px 0;
+}
+
+#services {
+    border-bottom: 1px dotted #CCCCCC;   
 }
 
 /* footer */ 
@@ -132,6 +136,12 @@ footer {
 .text-muted {
     color: #4C4C4C;
     line-height: 25px;
+    text-align: left;
+}
+
+.text-muted2 {
+    color: #4C4C4C;
+    line-height: 23.9px;
     text-align: left;
 }
 
@@ -383,7 +393,7 @@ img::-moz-selection {
     font-weight: 300;
     color: #4C4C4C;
     background-color: transparent;
-    border-color: #4C4C4C;
+    border-color: #CCCCCC;
     border-radius: 0;
     padding: 20px 40px;
 }
@@ -438,7 +448,7 @@ fieldset[disabled] .btn-primary.active {
     letter-spacing: 1px;
     font-weight: 300;
     color: #4C4C4C;
-    border-color: #4C4C4C;
+    border-color: #CCCCCC;
     background-color: transparent;
     border-radius: 0;
 }
@@ -546,7 +556,7 @@ section#contact .form-group {
 section#contact .form-group input,
 section#contact .form-group textarea {
     padding: 20px;
-    border-color: #4C4C4C;
+    border-color: #CCCCCC;
     border-radius: 0;
 }
 
