@@ -2,7 +2,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto","Helvetica Neue", "Helvetica", "Arial",sans-serif;
     font-weight: 300;
     color: #000;
     webkit-tap-highlight-color: #BB7E6F;
@@ -70,7 +70,7 @@ footer {
 }
 
 .navbar-default .navbar-brand {
-    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto Condensed","Helvetica Neue", "Helvetica","Arial",sans-serif;
     text-transform: uppercase;
     color: #BB7E6F;
 }
@@ -105,10 +105,10 @@ footer {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto Condensed","Helvetica Neue", "Helvetica","Arial",sans-serif;
     font-size: 15px;
     font-weight: 300;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     color: #BB7E6F;
 }
 
@@ -140,31 +140,29 @@ footer {
     color: #000000;
     line-height: 30px;
     text-align: left;
-    font-size: 16px;
+    font-size: 15px;
+    letter-spacing: 1px;
 }
 
 .red-text {
    color: #b30000;   
    font-weight: 300;
    text-transform: uppercase;
-   letter-spacing: 1px;
+   letter-spacing: 2px;
+   font-family: "Roboto Condensed","Helvetica Neue", "Helvetica","Arial",sans-serif;
+    text-decoration: underline;
 }
 
 #services ul li {
     color: #000000;
     line-height: 30px;
     text-align: left;
-    font-size: 16px;
+    font-size: 15px;
+    letter-spacing: 1px;
 }
 
 #services ul { 
     margin-left: -22px;
-}
-
-#contact p {
-  font-size: 16px; 
-  line-height: 30px;
-  text-align: center;
 }
 
 .text-primary {
@@ -189,10 +187,10 @@ a:hover {
 
 h4 {
     text-transform: uppercase;
-    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto Condensed","Helvetica Neue", "Helvetica","Arial",sans-serif;
     font-weight: 300;
     font-size: 15px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     color: #54868A;
 }
 
@@ -200,7 +198,7 @@ h2 {
     margin-top: 0;
     margin-bottom: 30px;
     text-transform: uppercase;
-    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto Condensed","Helvetica Neue", "Helvetica","Arial",sans-serif;
     font-weight: 300;
     font-size: 19.5px;
     color: #54868A;
@@ -208,10 +206,11 @@ h2 {
 }
 
 footer span.copyright {
-    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto","Helvetica Neue", "Helvetica", "Arial",sans-serif;
     font-weight: 300;
     color: #000000;
-    font-size: 16px;
+    font-size: 15px;
+    letter-spacing: 1px;
 }
 
 
@@ -286,7 +285,7 @@ footer span.copyright {
     margin: 0;
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 28px;
     color: #000000;
 }
@@ -316,14 +315,15 @@ footer span.copyright {
 .portfolio-modal .modal-content p {
     margin-bottom: 30px;
     line-height: 30px;
-    font-size: 16px;
+    font-size: 15px;
+    letter-spacing: 1px;
 }
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 30px;
     color: #000000;
 }
@@ -396,7 +396,7 @@ img::-moz-selection {
 .btn-primary {
     border-color: transparent;
     text-transform: uppercase;
-    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto Condensed","Helvetica Neue", "Helvetica","Arial",sans-serif;
     font-weight: 300;
     font-size: 15px;
     letter-spacing: 2px;
@@ -452,7 +452,7 @@ fieldset[disabled] .btn-primary.active {
     padding: 20px 40px;
     border-color: #822825;
     text-transform: uppercase;
-    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto Condensed","Helvetica Neue", "Helvetica","Arial",sans-serif;
     font-size: 15px;
     letter-spacing: 2px;
     font-weight: 300;
@@ -519,7 +519,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-brand {
-        font-size: 16px;
+        font-size: 15px;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -535,7 +535,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 16px;
+        font-size: 15px;
     }
 }
 
@@ -567,8 +567,9 @@ section#contact .form-group textarea {
     padding: 20px;
     border-color: #CCCCCC;
     border-radius: 0;
-    font-size: 16px;
-    color: #000;
+    font-size: 15px;
+    color: #000000;
+    letter-spacing: 1px;
 }
 
 section#contact .form-group input.form-control {
@@ -586,34 +587,33 @@ section#contact .form-control:focus {
 
 section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
-    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto","Helvetica Neue", "Helvetica", "Arial",sans-serif;
     font-weight: 300;
     color: #000000;
-    font-size: 16px;
 }
 
 section#contact:-moz-placeholder {
     text-transform: uppercase;
-    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto","Helvetica Neue", "Helvetica", "Arial",sans-serif;
     font-weight: 300;
     color: #000000;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 section#contact::-moz-placeholder {
     text-transform: uppercase;
-    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto","Helvetica Neue", "Helvetica", "Arial",sans-serif;
     font-weight: 300;
     color: #000000;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 section#contact:-ms-input-placeholder {
     text-transform: uppercase;
-    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto","Helvetica Neue", "Helvetica", "Arial",sans-serif;
     font-weight: 300;
     color: #000000;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 section#contact .text-danger {
