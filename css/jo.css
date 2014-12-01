@@ -179,13 +179,13 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #BB7E6F;
+    color: #b30000;
     text-decoration: none;
 }
 
 a:hover {
     outline: 0;
-    color: #BB7E6F;
+    color: #b30000;
     text-decoration: underline;
 }
 
