@@ -41,10 +41,6 @@ section {
     padding: 100px 0;
 }
 
-#services {
-    border-bottom: 1px dotted #CCCCCC;   
-}
-
 /* footer */ 
 
 footer {
@@ -190,40 +186,26 @@ a:hover {
     text-decoration: underline;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+
+h4 {
     text-transform: uppercase;
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
-    font-size: 17px;
+    font-size: 15px;
     letter-spacing: 1px;
+    color: #54868A;
 }
 
-section h2.section-heading {
+h2 {
     margin-top: 0;
     margin-bottom: 30px;
-    font-size: 17px;
+    text-transform: uppercase;
+    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    font-size: 19.5px;
     color: #54868A;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
-
-section h2.section-heading2 {
-    margin-top: 0;
-    margin-bottom: 30px;
-    font-size: 17px;
-    color: #54868A;
-    letter-spacing: 2px;
-}
-
-
-section#contact .section-heading {
-    color: #54868A;
-}
-
 
 footer span.copyright {
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -327,10 +309,8 @@ footer span.copyright {
 }
 
 .portfolio-modal .modal-content h2 {
-    margin-bottom: 15px;
-    font-size: 1.3em;
+    margin-bottom: 22px;
     color: #54868A;
-    letter-spacing: 1px;
 }
 
 .portfolio-modal .modal-content p {
@@ -418,7 +398,8 @@ img::-moz-selection {
     text-transform: uppercase;
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 15px;
+    letter-spacing: 2px;
     color: #000000;
     background-color: transparent;
     border-color: #CCCCCC;
@@ -472,8 +453,8 @@ fieldset[disabled] .btn-primary.active {
     border-color: #822825;
     text-transform: uppercase;
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    letter-spacing: 1px;
+    font-size: 15px;
+    letter-spacing: 2px;
     font-weight: 300;
     color: #000000;
     border-color: #CCCCCC;
