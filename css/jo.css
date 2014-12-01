@@ -288,7 +288,7 @@ footer span.copyright {
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto","Helvetica Neue", "Helvetica", "Arial",sans-serif;
     font-weight: 300;
     font-size: 15px;
     line-height: 28px;
@@ -326,7 +326,7 @@ footer span.copyright {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto","Helvetica Neue", "Helvetica", "Arial",sans-serif;
     font-weight: 300;
     font-size: 15px;
     line-height: 30px;
