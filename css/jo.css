@@ -144,6 +144,10 @@ footer {
     letter-spacing: 1px;
 }
 
+#contact p {
+    text-align: center;
+}
+
 .red-text {
    color: #b30000;   
    font-weight: 300;
