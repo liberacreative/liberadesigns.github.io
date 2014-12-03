@@ -52,14 +52,20 @@ footer {
 /* thanks */
 
 #thanks {
-    width:200px;
+    width:250px;
     height:200px;
     position: fixed;
     top: 40%;
     left: 50%;
     margin-top: -100px;
-    margin-left: -100px;
+    margin-left: -125px;
+    color: #000000;
+    line-height: 30px;
     text-align: center;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    
 }
 
 /* !NAV */
