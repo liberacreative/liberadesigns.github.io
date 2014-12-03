@@ -8,7 +8,7 @@ body {
     webkit-tap-highlight-color: #BB7E6F;
 }
 
-/* !STRUCTURE */
+/* !STRUCTURE/DIVS */
 
 /* div bgs */
 
@@ -160,6 +160,7 @@ footer {
    font-weight: 300;
    text-transform: uppercase;
    letter-spacing: 2px;
+   font-size: 19.5;
    font-family: "Roboto Condensed","Helvetica Neue", "Helvetica","Arial",sans-serif;
     text-decoration: underline;
 }
@@ -196,15 +197,6 @@ a:hover {
 }
 
 
-h4 {
-    text-transform: uppercase;
-    font-family: "Roboto Condensed","Helvetica Neue", "Helvetica","Arial",sans-serif;
-    font-weight: 300;
-    font-size: 15px;
-    letter-spacing: 2px;
-    color: #54868A;
-}
-
 h2 {
     margin-top: 0;
     margin-bottom: 30px;
@@ -214,6 +206,15 @@ h2 {
     font-size: 19.5px;
     color: #54868A;
     letter-spacing: 3px;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-family: "Roboto Condensed","Helvetica Neue", "Helvetica","Arial",sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #54868A;
 }
 
 footer span.copyright {
