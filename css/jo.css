@@ -177,6 +177,19 @@ footer {
     margin-left: -22px;
 }
 
+.modal-body ul li {
+    color: #000000;
+    line-height: 30px;
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.modal-body ul { 
+    margin-left: -22px;
+}
+
+
 .text-primary {
     color: #54868A;
 }
