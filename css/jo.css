@@ -8,6 +8,7 @@ body {
     webkit-tap-highlight-color: #BB7E6F;
 }
 
+
 /* !STRUCTURE/DIVS */
 
 /* div bgs */
@@ -20,19 +21,23 @@ body {
     background-color: #F4EFEB;
 }
 
-
 /* top div */
 
 header {
-    height: 54em;
+    height: 750px; 
+    text-align: center;
     background-attachment: scroll;
-    background-image: url(../img/FINALBG.jpg);
+    background-image: url(../img/testBG.jpg);
     background-position: center center;
-    background-repeat: no-repeat;
+    background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+header .intro-text {
+    padding-top: 300px;
 }
 
 /* section heights */
@@ -67,6 +72,7 @@ footer {
     font-weight: 300;
     
 }
+
 
 /* !NAV */
 
@@ -118,7 +124,6 @@ footer {
     color: #BB7E6F;
 }
 
-
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
@@ -141,6 +146,20 @@ footer {
 
 
 /* !TYPE */
+
+header .intro-text .intro-heading {
+    margin-bottom: 25px;
+    font-family: "Roboto","Helvetica Neue", "Helvetica", "Arial",sans-serif;
+    font-weight: 100;
+    color: #FFF;    
+    font-size: 25px;
+    line-height: 26px;
+    letter-spacing: 10px;
+}
+
+hr {
+    border-top: 1px solid #FFF;
+}
 
 .text-muted {
     color: #000000;
