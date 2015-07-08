@@ -24,10 +24,10 @@ body {
 /* top div */
 
 header {
-    height: 750px; 
+    height: 700px; 
     text-align: center;
     background-attachment: scroll;
-    background-image: url(../img/testBG.jpg);
+    background-image: url(../img/FINALBG_birds.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -37,7 +37,7 @@ header {
 }
 
 header .intro-text {
-    padding-top: 300px;
+    padding-top: 290px;
 }
 
 /* section heights */
@@ -149,12 +149,12 @@ footer {
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    font-family: "Roboto","Helvetica Neue", "Helvetica", "Arial",sans-serif;
+    font-family: "Roboto Condensed","Helvetica Neue", "Helvetica", "Arial",sans-serif;
     font-weight: 100;
     color: #FFF;    
     font-size: 25px;
-    line-height: 26px;
-    letter-spacing: 10px;
+    line-height: 15px;
+    letter-spacing: 12px;
 }
 
 hr {
@@ -179,7 +179,7 @@ hr {
    font-weight: 300;
    text-transform: uppercase;
    letter-spacing: 2px;
-   font-size: 19.5;
+   font-size: 15px;
    font-family: "Roboto Condensed","Helvetica Neue", "Helvetica","Arial",sans-serif;
     text-decoration: underline;
 }
@@ -234,8 +234,8 @@ h2 {
     margin-bottom: 30px;
     text-transform: uppercase;
     font-family: "Roboto Condensed","Helvetica Neue", "Helvetica","Arial",sans-serif;
-    font-weight: 300;
-    font-size: 19.5px;
+    font-weight: 100;
+    font-size: 20px;
     color: #54868A;
     letter-spacing: 3px;
 }
@@ -695,4 +695,15 @@ ul.social-buttons li a:active {
 .btn.active,
 .btn:active:focus {
     outline: 0;
+}
+
+
+/* !SCROLL UP */
+
+#scrollUp {
+  bottom: 20px;
+  right: 20px;
+  width: 38px; /* Width of image */
+  height: 38px; /* Height of image */
+  background: url(../img/top.png) no-repeat;
 }
