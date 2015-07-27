@@ -706,4 +706,9 @@ ul.social-buttons li a:active {
   width: 38px; /* Width of image */
   height: 38px; /* Height of image */
   background: url(../img/top.png) no-repeat;
+  opacity: 0.8; 
+}
+
+#scrollUp:hover {
+  opacity: 1.0;
 }
