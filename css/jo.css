@@ -598,7 +598,7 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 100px 0;
     }
 }
 
@@ -607,6 +607,26 @@ fieldset[disabled] .btn-xl.active {
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
+    }
+}
+
+/* modals */
+
+@media(min-width:993px) and (max-width:1279px) {
+    .modal-body {
+        min-width: 1000px;
+        padding-left: 0px;
+        padding-right: 20px;       
+        margin-left: -20px;
+    }
+}
+
+@media(min-width:1280px) and (max-width:2000px) {
+    .modal-body {
+        min-width: 1000px;
+        padding-left: 0px;
+        padding-right: 20px;       
+        margin-left: -120px;
     }
 }
 
