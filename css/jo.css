@@ -612,7 +612,7 @@ fieldset[disabled] .btn-xl.active {
 
 /* modals */
 
-@media(min-width:993px) and (max-width:1279px) {
+@media(min-width:993px) and (max-width:1199px) {
     .modal-body {
         min-width: 1000px;
         padding-left: 0px;
@@ -621,10 +621,10 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
-@media(min-width:1280px) and (max-width:2000px) {
+@media(min-width:1200px) and (max-width:2000px) {
     .modal-body {
         min-width: 1000px;
-        padding-left: 0px;
+        padding-left: 0px; 
         padding-right: 20px;       
         margin-left: -120px;
     }
