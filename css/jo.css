@@ -42,8 +42,20 @@ header .intro-text {
 
 /* section heights */
 
-section {
-    padding: 100px 0;
+#services {
+    padding: 120px 0;
+}
+
+#aboutme {
+    padding: 120px 0;
+}
+
+#portfolio {
+    padding: 120px 0;
+}
+
+#contact {
+    padding: 120px 0;
 }
 
 /* footer */ 
