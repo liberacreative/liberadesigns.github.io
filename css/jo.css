@@ -221,7 +221,7 @@ hr {
 
 
 .text-primary {
-    color: #BBCCCC;
+    color: #92ADAD;
 }
 
 a,
@@ -295,7 +295,7 @@ footer span.copyright {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background: #BBCCCC;
+    background: #92ADAD;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
