@@ -27,13 +27,25 @@ header {
     height: 700px; 
     text-align: center;
     background-attachment: scroll;
-    background-image: url(../img/FINALBG_birds.jpg);
+    background-image: url(../img/FINALBG_gradient.jpg);
     background-position: center center;
     background-repeat: none;
-    -webkit-background-size: auto;
-    -moz-background-size: auto;
-    background-size: auto;
-    -o-background-size: auto;
+    -webkit-background-size: cover
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+header a {
+   font-size: 40px;
+   color: #FFF;
+}
+
+header a:hover, 
+header a:active {
+   color: #FFF;
+   text-decoration: none;
+   opacity: 0.4;
 }
 
 header .intro-text {
