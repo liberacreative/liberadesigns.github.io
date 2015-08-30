@@ -30,6 +30,10 @@ header {
     background-image: url(../img/FINALBG_birds.jpg);
     background-position: center center;
     background-repeat: none;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    background-size: auto;
+    -o-background-size: auto;
 }
 
 header .intro-text {
