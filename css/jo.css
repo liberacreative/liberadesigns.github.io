@@ -18,7 +18,7 @@ body {
 }
 
 .pale {
-    background-color: #F4EFEB;
+    background-color: #F4EDED;
 }
 
 /* top div */
@@ -27,29 +27,15 @@ header {
     height: 700px; 
     text-align: center;
     background-attachment: scroll;
-    background-image: url(../img/FINALBG_gradient.jpg);
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-header a {
-   font-size: 40px;
-   color: #FFF;
-}
-
-header a:hover, 
-header a:active {
-   color: #FFF;
-   text-decoration: none;
-   opacity: 0.4;
+    background: -webkit-linear-gradient(0deg, #F4EDED 10%, #99ABB6 90%); /* Chrome 10+, Saf5.1+ */
+    background: -moz-linear-gradient(0deg, #F4EDED 10%, #99ABB6 90%); /* FF3.6+ */
+    background: -ms-linear-gradient(0deg, #F4EDED 10%, #99ABB6 90%); /* IE10 */
+    background: -o-linear-gradient(0deg, #F4EDED 10%, #99ABB6 90%); /* Opera 11.10+ */
+    background: linear-gradient(0deg, #F4EDED 10%, #99ABB6 90%); /* W3C */
 }
 
 header .intro-text {
-    padding-top: 291px;
+    padding-top: 260px;
 }
 
 /* section heights */
@@ -59,7 +45,7 @@ header .intro-text {
 }
 
 #aboutme {
-    padding: 140px 0;
+    padding: 170px 0;
 }
 
 #portfolio {
@@ -75,7 +61,6 @@ header .intro-text {
 footer {
     padding: 25px 0;
     text-align: center;
-    background-color: #F4EFEB;
 }
 
 /* thanks */
@@ -100,43 +85,45 @@ footer {
 
 /* !NAV */
 
+
 .navbar-default {
-    border-color: transparent;
-    background-color: #F4EFEB;
+    background-color: #F4EDED;
+    border-bottom: 1px solid #FFF;
 }
 
 .navbar-default .navbar-brand {
     font-family: "Roboto Condensed","Helvetica Neue", "Helvetica","Arial",sans-serif;
     text-transform: uppercase;
-    color: #BB7E6F;
+    color: #B30000;
 }
 
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #822825;
+    color: #B30000;
 }
 
 .navbar-default .navbar-collapse {
-    border-color: #BB7E6F;
+    border-color: #FFF;
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #F4EFEB;
+    border-color: #F4EDED;
     border-radius: 0;
-    background-color: #F4EFEB;
+    background-color: #F4EDED;
 }
 
 .navbar-default .navbar-toggle:focus {
-    background-color: #F4EFEB;
-}
-
-.navbar-default .navbar-toggle:hover {
-    background-color: #822825;
+    background-color: #F4EDED;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #BB7E6F;
+    background-color: #C74848;
+}
+
+.navbar-default .navbar-toggle:hover {
+    color: #C74848;
+    background-color: #FFF; 
 }
 
 .navbar-default .nav li a {
@@ -145,51 +132,53 @@ footer {
     font-size: 15px;
     font-weight: 300;
     letter-spacing: 3px;
-    color: #BB7E6F;
+    color: #B30000;
+    opacity: 0.5;
 }
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
-    outline: 0;
-    color: #BB7E6F;
-    background-color: #822825;
+    color: #B30000;
+    background-color: #FFF;
+    opacity: 0.7; 
 }
 
 .navbar-default .navbar-nav>.active>a {
-    outline: 0;
-    color: #BB7E6F;
-    background-color: #822825;
+    color: #B30000;
+    background-color: #FFF;
+    opacity: 0.7; 
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    outline: 0;
-    color: #BB7E6F;
-    background-color: #822825;
+    color: #B30000;
+    background-color: #FFF;
+    opacity: 0.7; 
 }
 
 
 /* !TYPE */
 
-header .intro-text .intro-heading {
-    margin-bottom: 25px;
+header .intro-text {
     font-family: "Roboto Condensed","Helvetica Neue", "Helvetica", "Arial",sans-serif;
     font-weight: 100;
     color: #FFF;    
-    font-size: 25px;
-    line-height: 15px;
-    letter-spacing: 12px;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 10px;
     text-align: center;
 }
 
-.txtUpsideDown 
-{
-	filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=2);  /* IE6,IE7 */
-	ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)"; /* IE8 */
-	-moz-transform: rotate(-180deg);  /* FF3.5+ */
-	-o-transform: rotate(-180deg);  /* Opera 10.5 */
-	-webkit-transform: rotate(-180deg);  /* Safari 3.1+, Chrome */
-	position: relative; 
+header .intro-heading {
+    margin-bottom: 25px;
+    font-family: "Roboto Condensed","Helvetica Neue", "Helvetica", "Arial",sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    color: #FFF;    
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 7px;
+    text-align: center;
 }
 
 hr {
@@ -210,7 +199,7 @@ hr {
 }
 
 .red-text {
-   color: #b30000;   
+   color: #C74848;   
    font-weight: 300;
    text-transform: uppercase;
    letter-spacing: 2px;
@@ -245,21 +234,34 @@ hr {
 
 
 .text-primary {
-    color: #84A3A3;
+    color: #99ABB6;
 }
 
-a,
-a:focus,
-a:active,
-a.active {
-    outline: 0;
-    color: #b30000;
+a.arrow,
+focus,
+active {
+    color: #FFF;
+    text-decoration: none;
+    opacity: 0.5;
+    line-height: 300px;
+    font-size: 20px;
+}
+
+a.arrow:hover {
+    color: #FFF;
+    text-decoration: underline;
+    opacity: 1;
+}
+
+a.red-link,
+focus,
+active {
+    color: #C74848;
     text-decoration: none;
 }
 
-a:hover {
-    outline: 0;
-    color: #B30000;
+a.red-link:hover {
+    color: #C74848;
     text-decoration: underline;
 }
 
@@ -271,7 +273,7 @@ h2 {
     font-family: "Roboto Condensed","Helvetica Neue", "Helvetica","Arial",sans-serif;
     font-weight: 100;
     font-size: 20px;
-    color: #92ADAD;
+    color: #99ABB6;
     letter-spacing: 3px;
 }
 
@@ -281,7 +283,7 @@ h4 {
     font-weight: 300;
     font-size: 15px;
     letter-spacing: 2px;
-    color: #92ADAD;
+    color: #99ABB6;
 }
 
 footer span.copyright {
@@ -319,11 +321,11 @@ footer span.copyright {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background: #BBCCCC;
+    background: #B7C3CB;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
@@ -453,12 +455,12 @@ footer span.copyright {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #ded3a6;
+    background: #FFF;
 }
 
 ::selection {
     text-shadow: none;
-    background: #eae1b8;
+    background: #FFF;
 }
 
 img::selection {
@@ -491,9 +493,9 @@ img::-moz-selection {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #822825;
-    color: #BB7E6F;
-    background-color: #822825;
+    border-color: #CCCCCC;
+    color: #C74848;
+    background-color: transparent;
     border-radius: 0;
 }
 
@@ -518,8 +520,8 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #822825;
-    background-color: #822825;
+    border-color: #CCCCCC;
+    background-color: transparent;
 }
 
 .btn-primary .badge {
@@ -546,9 +548,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #822825;
-    color: #BB7E6F;
-    background-color: #822825;
+    border-color: #CCCCCC;
+    color: #C74848;
+    background-color: transparent;
     border-radius: 0;
 }
 
@@ -610,7 +612,8 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #F4EFEB;
+        background-color: #F4EDED;
+        border-bottom: 1px solid #FFF;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -664,7 +667,7 @@ section#contact .form-group {
 section#contact .form-group input,
 section#contact .form-group textarea {
     padding: 20px;
-    border-color: #CCCCCC;
+    border: 1px solid #CCCCCC;
     border-radius: 0;
     font-size: 15px;
     color: #000000;
@@ -680,7 +683,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #000000;
+    border: 1px solid #000;
     box-shadow: none;
     color: #000000;
 }
