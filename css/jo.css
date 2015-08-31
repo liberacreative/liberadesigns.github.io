@@ -237,6 +237,15 @@ hr {
     color: #99ABB6;
 }
 
+a,
+a:focus,
+a:active,
+a.active,
+a:hover {
+    outline: 0;
+    text-decoration: none;
+}
+
 a.arrow,
 focus,
 active {
@@ -322,6 +331,7 @@ footer span.copyright {
     -moz-transition: all ease .5s;
     transition: all ease .5s;
     background: #B7C3CB;
+    border: 0; 
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -493,9 +503,9 @@ img::-moz-selection {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #CCCCCC;
-    color: #C74848;
-    background-color: transparent;
+    border-color: #822825;
+    color: #FFF;
+    background-color: #822825;
     border-radius: 0;
 }
 
@@ -548,9 +558,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #CCCCCC;
-    color: #C74848;
-    background-color: transparent;
+    border-color: #822825;
+    color: #FFF;
+    background-color: #822825;
     border-radius: 0;
 }
 
