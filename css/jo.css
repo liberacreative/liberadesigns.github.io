@@ -27,11 +27,11 @@ header {
     height: 700px; 
     text-align: center;
     background-attachment: scroll;
-    background: -webkit-linear-gradient(0deg, #F4EDED 10%, #99ABB6 90%); /* Chrome 10+, Saf5.1+ */
-    background: -moz-linear-gradient(0deg, #F4EDED 10%, #99ABB6 90%); /* FF3.6+ */
-    background: -ms-linear-gradient(0deg, #F4EDED 10%, #99ABB6 90%); /* IE10 */
-    background: -o-linear-gradient(0deg, #F4EDED 10%, #99ABB6 90%); /* Opera 11.10+ */
-    background: linear-gradient(0deg, #F4EDED 10%, #99ABB6 90%); /* W3C */
+    background: -webkit-linear-gradient(10deg, #F4EDED 10%, #7B93A1 90%); /* Chrome 10+, Saf5.1+ */
+    background: -moz-linear-gradient(10deg, #F4EDED 10%, #7B93A1 90%); /* FF3.6+ */
+    background: -ms-linear-gradient(10deg, #F4EDED 10%, #7B93A1 90%); /* IE10 */
+    background: -o-linear-gradient(10deg, #F4EDED 10%, #7B93A1 90%); /* Opera 11.10+ */
+    background: linear-gradient(10deg, #F4EDED 10%, #7B93A1 90%); /* W3C */
 }
 
 header .intro-text {
@@ -140,20 +140,20 @@ footer {
 .navbar-default .nav li a:focus {
     color: #B30000;
     background-color: #FFF;
-    opacity: 0.7; 
+    opacity: 1; 
 }
 
 .navbar-default .navbar-nav>.active>a {
     color: #B30000;
     background-color: #FFF;
-    opacity: 0.7; 
+    opacity: 1; 
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #B30000;
     background-color: #FFF;
-    opacity: 0.7; 
+    opacity: 1; 
 }
 
 
@@ -199,7 +199,7 @@ hr {
 }
 
 .red-text {
-   color: #C74848;   
+   color: #B30000;   
    font-weight: 300;
    text-transform: uppercase;
    letter-spacing: 2px;
@@ -234,7 +234,7 @@ hr {
 
 
 .text-primary {
-    color: #99ABB6;
+    color: #7B93A1;
 }
 
 a,
@@ -251,7 +251,7 @@ focus,
 active {
     color: #FFF;
     text-decoration: none;
-    opacity: 0.5;
+    opacity: 0.7;
     line-height: 300px;
     font-size: 20px;
 }
@@ -265,12 +265,12 @@ a.arrow:hover {
 a.red-link,
 focus,
 active {
-    color: #C74848;
+    color: #B30000;
     text-decoration: none;
 }
 
 a.red-link:hover {
-    color: #C74848;
+    color: #B30000;
     text-decoration: underline;
 }
 
@@ -282,7 +282,7 @@ h2 {
     font-family: "Roboto Condensed","Helvetica Neue", "Helvetica","Arial",sans-serif;
     font-weight: 100;
     font-size: 20px;
-    color: #99ABB6;
+    color: #7B93A1;
     letter-spacing: 3px;
 }
 
@@ -292,7 +292,7 @@ h4 {
     font-weight: 300;
     font-size: 15px;
     letter-spacing: 2px;
-    color: #99ABB6;
+    color: #7B93A1;
 }
 
 footer span.copyright {
@@ -335,7 +335,7 @@ footer span.copyright {
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
