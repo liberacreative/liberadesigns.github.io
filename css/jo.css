@@ -8,7 +8,6 @@ body {
     webkit-tap-highlight-color: #BB7E6F;
 }
 
-
 /* !STRUCTURE/DIVS */
 
 /* div bgs */
@@ -82,9 +81,7 @@ footer {
     
 }
 
-
 /* !NAV */
-
 
 .navbar-default {
     background-color: #F4EDED;
@@ -155,7 +152,6 @@ footer {
     background-color: #FFF;
     opacity: 1; 
 }
-
 
 /* !TYPE */
 
@@ -274,7 +270,6 @@ a.red-link:hover {
     text-decoration: underline;
 }
 
-
 h2 {
     margin-top: 0;
     margin-bottom: 30px;
@@ -302,7 +297,6 @@ footer span.copyright {
     font-size: 15px;
     letter-spacing: 1px;
 }
-
 
 /* !PORTFOLIO GRIDS */
 
@@ -481,7 +475,6 @@ img::-moz-selection {
     background: 0 0;
 }
 
-
 /* !BUTTONS */
 
 .btn-primary {
@@ -594,7 +587,6 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fff;
 }
 
-
 /* !RESPONSIVE */
 
 /* nav */
@@ -667,7 +659,6 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
-
 /* !CONTACT FORM */
 
 section#contact .form-group {
@@ -730,7 +721,6 @@ section#contact .text-danger {
     color: #822825;
 }
 
-
 /* !SOCIAL MEDIA */
 
 ul.social-buttons {
@@ -764,7 +754,6 @@ ul.social-buttons li a:active {
 .btn:active:focus {
     outline: 0;
 }
-
 
 /* !SCROLL UP */
 
