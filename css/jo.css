@@ -35,7 +35,7 @@ header {
 }
 
 header .intro-text {
-    padding-top: 260px;
+    padding-top: 255px;
 }
 
 /* section heights */
@@ -164,7 +164,7 @@ header .intro-text {
     font-weight: 100;
     color: #FFF;    
     font-size: 30px;
-    line-height: 35px;
+    line-height: 50px;
     letter-spacing: 10px;
     text-align: center;
 }
@@ -330,12 +330,12 @@ footer span.copyright {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background: #B7C3CB;
+    background: #7B93A1;
     border: 0; 
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
