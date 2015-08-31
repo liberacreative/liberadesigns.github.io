@@ -26,15 +26,15 @@ header {
     height: 700px; 
     text-align: center;
     background-attachment: scroll;
-    background: -webkit-linear-gradient(10deg, #F4EDED 10%, #7B93A1 90%); /* Chrome 10+, Saf5.1+ */
-    background: -moz-linear-gradient(10deg, #F4EDED 10%, #7B93A1 90%); /* FF3.6+ */
-    background: -ms-linear-gradient(10deg, #F4EDED 10%, #7B93A1 90%); /* IE10 */
-    background: -o-linear-gradient(10deg, #F4EDED 10%, #7B93A1 90%); /* Opera 11.10+ */
-    background: linear-gradient(10deg, #F4EDED 10%, #7B93A1 90%); /* W3C */
+    background: -webkit-linear-gradient(1deg, #F4EDED 10%, #7B93A1 90%); /* Chrome 10+, Saf5.1+ */
+    background: -moz-linear-gradient(1deg, #F4EDED 10%, #7B93A1 90%); /* FF3.6+ */
+    background: -ms-linear-gradient(1deg, #F4EDED 10%, #7B93A1 90%); /* IE10 */
+    background: -o-linear-gradient(1deg, #F4EDED 10%, #7B93A1 90%); /* Opera 11.10+ */
+    background: linear-gradient(1deg, #F4EDED 10%, #7B93A1 90%); /* W3C */
 }
 
 header .intro-text {
-    padding-top: 255px;
+    padding-top: 250px;
 }
 
 /* section heights */
@@ -171,8 +171,8 @@ header .intro-heading {
     font-weight: 100;
     font-style: italic;
     color: #FFF;    
-    font-size: 15px;
-    line-height: 30px;
+    font-size: 17px;
+    line-height: 50px;
     letter-spacing: 7px;
     text-align: center;
 }
@@ -248,7 +248,7 @@ active {
     color: #FFF;
     text-decoration: none;
     opacity: 0.7;
-    line-height: 300px;
+    line-height: 290px;
     font-size: 20px;
 }
 
@@ -753,6 +753,26 @@ ul.social-buttons li a:active {
 .btn.active,
 .btn:active:focus {
     outline: 0;
+}
+
+/* BOUNCE ANIMATION */
+
+.bounce {
+  position: absolute;
+  left: 50%;
+  bottom: 120px;
+  margin-top: -25px;
+  margin-left: -25px;
+  height: 50px;
+  width: 50px;
+  -webkit-animation:bounce 1s infinite;
+}
+
+@-webkit-keyframes bounce {
+  0%       {bottom:125px;}
+  25%, 75% {bottom:135px;}
+  50%      {bottom:140px;}
+  100%     {bottom:120px;}
 }
 
 /* !SCROLL UP */
