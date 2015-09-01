@@ -387,10 +387,9 @@ footer span.copyright {
     border: 0;
     border-radius: 0;
     position: absolute;
+    margin-top: 70px;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 70px;
-    margin-bottom: 70px;
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -428,6 +427,7 @@ footer span.copyright {
 
 .folio img {
     margin-bottom: 30px;
+    width: 100%;
 }
 
 .folio .red-text {
@@ -438,6 +438,10 @@ footer span.copyright {
    font-size: 15px;
    font-family: "Roboto Condensed","Helvetica Neue", "Helvetica","Arial",sans-serif;
     text-decoration: underline;
+}
+
+.folio .btn-primary {
+    margin-bottom: 70px;
 }
 
 /* !BUTTONS */
