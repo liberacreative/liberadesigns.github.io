@@ -298,7 +298,7 @@ footer span.copyright {
     letter-spacing: 1px;
 }
 
-/* !PORTFOLIO GRIDS */
+/* FOLIO GRIDS */
 
 .img-centered {
     margin: 0 auto;
@@ -379,100 +379,65 @@ footer span.copyright {
     z-index: 2;
 }
 
-/* modal content */
+/* FOLIO */
 
-.portfolio-modal .modal-content {
-    padding: 100px 0;
-    min-height: 100%;
+.folio {
+    max-width: 1000px;
+    padding: 0;
     border: 0;
     border-radius: 0;
-    text-align: left;
+    position: absolute;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 70px;
+    margin-bottom: 70px;
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
 
-.portfolio-modal .modal-content h2 {
-    margin-bottom: 22px;
-    color: #92ADAD;
+.folio h2 {
+    color: #7B93A1;
+    letter-spacing: 3px;
+    margin-bottom: 23px;
 }
 
-.portfolio-modal .modal-content p {
-    margin-bottom: 30px;
-    line-height: 30px;
-    font-size: 15px;
-    letter-spacing: 1px;
-}
-
-.portfolio-modal .modal-content p.item-intro {
-    margin: 20px 0 30px;
+.folio p {
+    text-align: left;
+    margin-bottom: 30px;    
     font-family: "Roboto","Helvetica Neue", "Helvetica", "Arial",sans-serif;
     font-weight: 300;
     font-size: 15px;
+    letter-spacing: 1px;
     line-height: 30px;
     color: #000000;
 }
 
-.portfolio-modal .modal-content ul.list-inline {
+.folio ul.list-inline {
     margin-top: 0;
     margin-bottom: 30px;
 }
 
-.portfolio-modal .modal-content img {
+.folio ul li {
+    color: #000000;
+    line-height: 30px;
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.folio img {
     margin-bottom: 30px;
 }
 
-.portfolio-modal .close-modal {
-    position: absolute;
-    top: 25px;
-    right: 25px;
-    width: 75px;
-    height: 75px;
-    background-color: transparent;
-    cursor: pointer;
-}
-
-.portfolio-modal .close-modal:hover {
-    opacity: .3;
-}
-
-.portfolio-modal .close-modal .lr {
-    z-index: 1051;
-    width: 1px;
-    height: 75px;
-    margin-left: 35px;
-    background-color: #222;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
-
-.portfolio-modal .close-modal .lr .rl {
-    z-index: 1052;
-    width: 1px;
-    height: 75px;
-    background-color: #222;
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
-
-::-moz-selection {
-    text-shadow: none;
-    background: #FFF;
-}
-
-::selection {
-    text-shadow: none;
-    background: #FFF;
-}
-
-img::selection {
-    background: 0 0;
-}
-
-img::-moz-selection {
-    background: 0 0;
+.folio .red-text {
+   color: #B30000;   
+   font-weight: 300;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   font-size: 15px;
+   font-family: "Roboto Condensed","Helvetica Neue", "Helvetica","Arial",sans-serif;
+    text-decoration: underline;
 }
 
 /* !BUTTONS */
