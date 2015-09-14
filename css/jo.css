@@ -657,7 +657,7 @@ ul.social-buttons li a:active {
 
 .bounce {
  position: absolute;
- bottom: 0.5em;
+ bottom: 0em;
  left: 50% ;
  width: 60px;
  height: 60px ;
