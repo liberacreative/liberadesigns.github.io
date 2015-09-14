@@ -441,7 +441,7 @@ footer span.copyright {
 }
 
 .folio .btn-primary {
-    margin-top: 14px;
+    margin-top: 13px;
     margin-bottom: 70px;
 }
 
@@ -657,7 +657,7 @@ ul.social-buttons li a:active {
 
 .bounce {
  position: absolute;
- bottom: 30px;
+ bottom: 10%;
  left: 50% ;
  width: 60px;
  height: 60px ;
@@ -702,7 +702,7 @@ ul.social-buttons li a:active {
   right: 20px;
   width: 38px; /* Width of image */
   height: 38px; /* Height of image */
-  background: url(../img/top.png) no-repeat;
+  background: url(../img/top02.png) no-repeat;
   opacity: 0.8; 
 }
 
