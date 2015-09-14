@@ -657,7 +657,7 @@ ul.social-buttons li a:active {
 
 .bounce {
  position: absolute;
- bottom: 10%;
+ bottom: 0.5em;
  left: 50% ;
  width: 60px;
  height: 60px ;
@@ -782,9 +782,14 @@ ul.social-buttons li a:active {
     }
 }
 
-/* hidden H2 headings */
+/* hidden elements */
     
-@media(min-width:768px) {
+@media (min-width:768px) {
     .hid {
+        display: none;
+    }
+
+@media (min-width:0px) and (max-width:767px) {
+    .arrow {
         display: none;
     }
