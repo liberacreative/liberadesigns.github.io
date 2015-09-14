@@ -702,7 +702,7 @@ ul.social-buttons li a:active {
   right: 20px;
   width: 38px; /* Width of image */
   height: 38px; /* Height of image */
-  background: url(../img/top02.png) no-repeat;
+  background: url(../img/top.png) no-repeat;
   opacity: 0.8; 
 }
 
