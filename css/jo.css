@@ -657,10 +657,10 @@ ul.social-buttons li a:active {
 
 .bounce {
  position: absolute;
- bottom: 0em;
- left: 50% ;
+ bottom: 5%;
+ left: 50%;
  width: 60px;
- height: 60px ;
+ height: 60px;
  margin-left:-30px;
  -webkit-border-radius:50%;
  -moz-border-radius:50%;
@@ -787,9 +787,11 @@ ul.social-buttons li a:active {
 @media (min-width:768px) {
     .hid {
         display: none;
-    }
+    }    
+}
 
-@media (min-width:0px) and (max-width:767px) {
+@media (max-width:768px) {
     .arrow {
         display: none;
     }
+}
