@@ -26,11 +26,11 @@ header {
     height: 700px; 
     text-align: center;
     background-attachment: scroll;
-    background: -webkit-linear-gradient(1deg, #F4EDED 10%, #7B93A1 90%); /* Chrome 10+, Saf5.1+ */
-    background: -moz-linear-gradient(1deg, #F4EDED 10%, #7B93A1 90%); /* FF3.6+ */
-    background: -ms-linear-gradient(1deg, #F4EDED 10%, #7B93A1 90%); /* IE10 */
-    background: -o-linear-gradient(1deg, #F4EDED 10%, #7B93A1 90%); /* Opera 11.10+ */
-    background: linear-gradient(1deg, #F4EDED 10%, #7B93A1 90%); /* W3C */
+    background: -webkit-linear-gradient(1deg, #F4EDED 10%, #8EA1AD 90%); /* Chrome 10+, Saf5.1+ */
+    background: -moz-linear-gradient(1deg, #F4EDED 10%, #8EA1AD 90%); /* FF3.6+ */
+    background: -ms-linear-gradient(1deg, #F4EDED 10%, #8EA1AD 90%); /* IE10 */
+    background: -o-linear-gradient(1deg, #F4EDED 10%, #8EA1AD 90%); /* Opera 11.10+ */
+    background: linear-gradient(1deg, #F4EDED 10%, #8EA1AD 90%); /* W3C */
 }
 
 header .intro-text {
