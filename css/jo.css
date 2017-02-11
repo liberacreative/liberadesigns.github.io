@@ -197,11 +197,10 @@ hr {
 
 .red-text {
    color: #B30000;   
-    line-height: 30px;
-    text-align: left;
-    font-size: 15px;
-    letter-spacing: 1px;
-    font-weight: 300;
+   text-align: left;
+   font-size: 15px;
+   letter-spacing: 1px;
+   font-weight: 300;
 }
 
 #services ul li {
