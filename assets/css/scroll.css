@@ -1,0 +1,26 @@
+/* Scroll up */
+
+.back-to-top {
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    opacity: 1;
+    border-bottom: 0;
+    position: fixed;
+    z-index: 100;
+    border-radius: 50%;
+    text-align: center;
+    display: inline;
+    background: #484848;
+    font-size: 22px;
+    box-sizing: border-box;
+    color: #dddddd;
+    display:none;
+}
+
+.back-to-top:hover {
+    color: #dddddd !important;
+    background-color: #737373;
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+}
