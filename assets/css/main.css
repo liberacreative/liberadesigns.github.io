@@ -2839,7 +2839,7 @@
 				display: block;
 				height: 100%;
 				left: 0;
-				opacity: 0.85;
+				opacity: 1; /* change opacity of nav grid colours */
 				position: absolute;
 				width: 100%;
 				z-index: 2;
@@ -2878,11 +2878,11 @@
 			}
 
 			.tiles article:nth-child(6n - 5):before {
-				background-color: #9e7f63;
+				background-color: #a07f61;
 			}
 
 			.tiles article:nth-child(6n - 4):before {
-				background-color: #5a9097;
+				background-color: #589299;
 			}
 
 			.tiles article:nth-child(6n - 3):before {
@@ -2890,7 +2890,7 @@
 			}
 
 			.tiles article:nth-child(6n - 2):before {
-				background-color: #ccae87;
+				background-color: #cfaf85;
 			}
 
 			.tiles article:nth-child(6n - 1):before {
