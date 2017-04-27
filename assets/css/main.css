@@ -2846,7 +2846,7 @@
 			}
 
 			.tiles article:after {
-				background-color: #eeeeee;
+				background-color: rgba(238, 238, 238, 1);
 				content: '';
 				display: block;
 				height: 100%;
@@ -3427,7 +3427,7 @@
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/banner_fin.jpg");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3460,7 +3460,7 @@
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
 			pointer-events: none;
-			background-color: #dddddd;
+			background-color: #eeeeee;
 			content: '';
 			display: block;
 			height: 100%;
@@ -3531,9 +3531,9 @@
 				}
 
 		#banner.major {
-			height: 90vh;
-			min-height: 40em;
-			max-height: 60em;
+			height: 75vh; /* Change Top Banner Height */
+			min-height: 30em;
+			max-height: 50em;
 		}
 
 			#banner.major.alt {
@@ -3997,7 +3997,7 @@
 			}
 
 	body.is-ie #menu {
-		background: rgba(42, 47, 74, 0.975);
+		background: rgba(238, 238, 238, 0.975);
 	}
 
 	body.is-menu-visible #wrapper {
