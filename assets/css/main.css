@@ -1874,6 +1874,10 @@
 			text-transform: uppercase;
 		}
 
+        .content > p {
+            margin-top: -14px;       
+        }
+
 		body.is-ie header.major > :first-child:after {
 			max-width: 9em;
 		}
