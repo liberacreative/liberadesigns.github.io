@@ -3593,6 +3593,13 @@
 
 		}
 
+        @media screen and (max-width: 1000px) {
+            
+            #banner {
+                background-image: url("../../images/banner_tabletmobile.jpg")       
+            }
+        }
+
 		@media screen and (max-width: 736px) {
 
 			#banner {
@@ -3602,6 +3609,7 @@
 				max-height: none;
 				min-height: 0;
 				top: -2.75em;
+                background-image: url("../../images/banner_tabletmobile.jpg");
 			}
 
 				#banner h1 {
@@ -3629,6 +3637,7 @@
 
 			#banner {
 				padding: 6em 0 2em 0 ;
+                background-image: url("../../images/banner_tabletmobile.jpg");
 			}
 
 				#banner > .inner .content p br {
