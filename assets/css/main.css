@@ -3591,7 +3591,7 @@
 			#banner {
 				background-attachment: scroll;
 			}
-
+            
 		}
 
         @media screen and (max-width: 1000px) {
@@ -3599,6 +3599,7 @@
             #banner {
                 background-image: url("../../images/banner_tabletmobile.jpg")       
             }
+            
         }
 
 		@media screen and (max-width: 736px) {
