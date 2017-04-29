@@ -3433,7 +3433,7 @@
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/banner_fin.jpg");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3594,10 +3594,10 @@
             
 		}
 
-        @media screen and (max-width: 1000px) {
+        @media screen and (max-width: 980px) {
             
             #banner {
-                background-image: url("../../images/banner_tabletmobile.jpg")       
+                background-image: url("../../images/banner_tabletmobile_fin.jpg")       
             }
             
         }
@@ -3611,7 +3611,7 @@
 				max-height: none;
 				min-height: 0;
 				top: -2.75em;
-                background-image: url("../../images/banner_tabletmobile.jpg");
+                background-image: url("../../images/banner_tabletmobile_fin.jpg");
 			}
 
 				#banner h1 {
@@ -3639,7 +3639,7 @@
 
 			#banner {
 				padding: 6em 0 2em 0 ;
-                background-image: url("../../images/banner_tabletmobile.jpg");
+                background-image: url("../../images/banner_tabletmobile_fin.jpg");
 			}
 
 				#banner > .inner .content p br {
